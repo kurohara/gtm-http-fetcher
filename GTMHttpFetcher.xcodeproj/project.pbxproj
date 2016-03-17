@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF6D43951C9ACEF900CC0660 /* GTMHttpFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6D43941C9ACEF900CC0660 /* GTMHttpFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF6D43951C9ACEF900CC0660 /* GTMHttpFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6D43941C9ACEF900CC0660 /* GTMHttpFetcher.h */; };
 		FF6D439C1C9ACEF900CC0660 /* GTMHttpFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6D43911C9ACEF900CC0660 /* GTMHttpFetcher.framework */; };
 		FF6D43A11C9ACEF900CC0660 /* GTMHttpFetcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6D43A01C9ACEF900CC0660 /* GTMHttpFetcherTests.m */; };
 		FF6D43D01C9AD09200CC0660 /* GTMGatherInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6D43AC1C9AD09200CC0660 /* GTMGatherInputStream.h */; };
 		FF6D43D11C9AD09200CC0660 /* GTMGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6D43AD1C9AD09200CC0660 /* GTMGatherInputStream.m */; };
-		FF6D43D21C9AD09200CC0660 /* GTMHTTPFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6D43AE1C9AD09200CC0660 /* GTMHTTPFetcher.h */; };
+		FF6D43D21C9AD09200CC0660 /* GTMHTTPFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6D43AE1C9AD09200CC0660 /* GTMHTTPFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF6D43D31C9AD09200CC0660 /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6D43AF1C9AD09200CC0660 /* GTMHTTPFetcher.m */; };
 		FF6D43D41C9AD09200CC0660 /* GTMHTTPFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6D43B31C9AD09200CC0660 /* GTMHTTPFetcherLogging.h */; };
 		FF6D43D51C9AD09200CC0660 /* GTMHTTPFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6D43B41C9AD09200CC0660 /* GTMHTTPFetcherLogging.m */; };
@@ -214,6 +214,7 @@
 			files = (
 				FF6D43EA1C9AD09200CC0660 /* GTMHTTPServer.h in Headers */,
 				FF6D43951C9ACEF900CC0660 /* GTMHttpFetcher.h in Headers */,
+				FF6D43D21C9AD09200CC0660 /* GTMHTTPFetcher.h in Headers */,
 				FF6D43E01C9AD09200CC0660 /* GTMReadMonitorInputStream.h in Headers */,
 				FF6D43D81C9AD09200CC0660 /* GTMHTTPFetcherService.h in Headers */,
 				FF6D43DC1C9AD09200CC0660 /* GTMHTTPUploadFetcher.h in Headers */,
@@ -223,7 +224,6 @@
 				FF6D43DE1C9AD09200CC0660 /* GTMMIMEDocument.h in Headers */,
 				FF6D43D01C9AD09200CC0660 /* GTMGatherInputStream.h in Headers */,
 				FF6D43DA1C9AD09200CC0660 /* GTMHTTPFetchHistory.h in Headers */,
-				FF6D43D21C9AD09200CC0660 /* GTMHTTPFetcher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

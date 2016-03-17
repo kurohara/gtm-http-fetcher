@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char GTMHttpFetcherVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <GTMHttpFetcher/PublicHeader.h>
 
 
+#import <GTMHttpFetcher/GTMHTTPFetcher.h>

@@ -13,6 +13,7 @@
  * limitations under the License.
  */
 
+
 //
 //  GTMHTTPFetcher.h
 //
@@ -242,6 +243,12 @@
 #pragma once
 
 #import <Foundation/Foundation.h>
+
+//! Project version number for GTMHttpFetcher.
+FOUNDATION_EXPORT double GTMHttpFetcherVersionNumber;
+
+//! Project version string for GTMHttpFetcher.
+FOUNDATION_EXPORT const unsigned char GTMHttpFetcherVersionString[];
 
 #if defined(GTL_TARGET_NAMESPACE)
   // we're using target namespace macros
